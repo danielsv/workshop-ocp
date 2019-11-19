@@ -3,4 +3,5 @@
   $host= gethostname();
   $ip = gethostbyname($host);                    
   echo $ip;
+    phpinfo();
   ?>
